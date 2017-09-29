@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: Lightblue;
+    color: rgb(66, 94, 248);
+}
+
+h2 {
+    color: silver;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.intro {
+    background-color: #000000;
+    color: white;
+    border: 10px solid #ff0000;
+    padding: 20px;
+    margin: 0;
+    width: 300px;
+
+
+
+}
+
+.intro a {
+        color: #999999;
+
+}
