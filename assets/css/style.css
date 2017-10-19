@@ -1,35 +1,71 @@
-* {
-    box-sizing: border-box;
+/* nav {
+    position: fixed;
+    float: left;
+    font-family: "Din Alternate";
+    font-size: 36px;
+    font-weight:bold;
+    height: 100px;
+    align-content: center;
+} */
+
+.logo {
+    width: 80px;
+    height: 93px;
 }
 
-a {
-    text-decoration: none;
+
+/* why doesn't it work? */
+/* .nav:link {
+    color: #1D8099;
 }
 
-body {
-    background-color: Lightblue;
-    color: rgb(66, 94, 248);
+.nav:hover {
+    color: #6023C2;
 }
 
-h2 {
-    color: silver;
-    font-size: 50px;
-    text-decoration: underline;
+nav {
+    height: 100px;
+    position: fixed;
+    Width: 980px;
+    margin:auto;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+
+} */
+
+.nav_left {
+    float: left;
+
+}
+
+.nav_right {
+    float: right;
+
+}
+
+nav a {
+    margin:auto, 20px;
+
 }
 
 .intro {
-    background-color: #000000;
-    color: white;
-    border: 10px solid #ff0000;
-    padding: 20px;
-    margin: 0;
-    width: 300px;
+    background: url("../img/background.png")
+}
 
+.work {
+    width: 980px;
+    margin: auto;
+}
 
+.col-4 {
+    /* padding: 20px, auto; */
+    margin-bottom:20px;
+}
+
+.aboutme {
+    width: 980px;
+    margin: auto;
 
 }
 
-.intro a {
-        color: #999999;
 
-}

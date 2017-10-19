@@ -1,45 +1,111 @@
-
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>YI PENG</title>
-        <link rel="stylesheet" href="assets/css/style.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <title>YI PENG</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 
-    <body>
-        <nav>
-            <a href="index.html"><img src="assets/img/logo.png" alt="Back to homepage"></a>
-            <p><a href="index.html">YI PENG</a></p>
-            <p><a href="#WORK">WORK</a></p>
-            <p><a href="#ABOUTME">ABOUT ME</a></p>
-            <img src="assets/img/background.png">
-        </nav>
 
-        <main>
+</head>
+
+<body>
+
+    <!-- <nav>
+        <ul class="nav">
+        <li class="nav-item">
+        <a class="nav-link active" href="index.html"><img class="logo" src="assets/img/logo.png" alt="Back to homepage"></a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="index.html">YI PENG</a>
+        </li>
+        </ul>
+
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+            <a class="nav-link active" href="#WORK">WORK</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#ABOUTME">ABOUT ME</a>
+            </li>
+
+        </ul> -->
+    <nav>
+
+        <div class="nav_left">
+            <a href="index.html"><img class="logo" src="assets/img/logo.png" alt="Back to homepage"></a>
+            <a class="nav_yipeng" href="index.html">YI PENG</a>
+        </div>
+
+
+        <div class="nav_right">
+            <a class="nav_work" href="#WORK">WORK</a>
+            <a class="nav_about" href="#ABOUTME">ABOUT ME</a>
+        </div>
+
+
+    </nav>
+
+    <main>
+        <!-- <img src="assets/img/background.png"> -->
+        <div class="intro">
             <p>Hello,</p>
             <p>Yi, is a user experience designer.</p>
             <p>Now she is learning research methods and design innovation at IIT Institute of Design in Chicago.</p>
+        </div>
 
+        <div class="work">
             <h2 id="WORK">WORK</h2>
-            <a href="divvy.html"><img src="assets/img/DIVVY.png"></a>
-            <a href="bling.html"><img src="assets/img/BLING.png"></a>
-            <a href="han.html"><img src="assets/img/HAN.png"></a>
-            <a href="q.html"><img src="assets/img/DIVVY.png"></a>
-            <a href="bling.html"><img src="assets/img/BLING.png"></a>
-            <a href="han.html"><img src="assets/img/HAN.png"></a>
+            <div class="row">
+                <div class="col-4">
+                    <a href="divvy.html"><img class="img-fluid" src="assets/img/DIVVY.png"></a>
+                </div>
 
+                <div class="col-4">
+                    <a href="bling.html"><img class="img-fluid" src="assets/img/BLING.png"></a>
+                </div>
+
+                <div class="col-4">
+                    <a href="han.html"><img class="img-fluid" src="assets/img/HAN.png"></a>
+                </div>
+
+                <div class="col-4">
+                    <a href="q.html"><img class="img-fluid" src="assets/img/DIVVY.png"></a>
+                </div>
+
+                <div class="col-4">
+                    <a href="bling.html"><img class="img-fluid" src="assets/img/BLING.png"></a>
+                </div>
+
+                <div class="col-4">
+                    <a href="han.html"><img class="img-fluid" src="assets/img/HAN.png"></a>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="aboutme container">
             <h2 id="ABOUTME">ABOUT ME</h2>
-            <img src="assets/img/yipengphoto.png">
-            <p class="intro">Hi, I’m Yi Peng and I’m a first year full-time Master of design student at Institute of Design, IIT, Chicago. </p>
-            <p>Before came to ID, I actually majored in Digital Media Technology where I learnt a lot of programming languages and some basic design skills.</p>
-            <p>So I can also easily understand the principle of new technology and always think about how to apply it into our daily life. At present, I pay more attention to learn the user centered design methods and process, to know how to dig out issues froma users perspective and then generate a solution balancing biz value and users value. </p>
-            <p>I’m seeking full-time position engaging in design research and user experience design.</p>
 
-            <a href="assets/file/YiPengResume.pdf"><img src="assets/img/button_resume.png"></a>
+            <div class="row">
+                <div class="col-5">
+                    <img src="assets/img/yipengphoto.png">
+                </div>
 
-        </main>
-    </body>
+                <div class="col-7">
+                    <p class="intro">Hi, I’m Yi Peng and I’m a first year full-time Master of design student at Institute of Design, IIT, Chicago. </p>
+                    <p>Before came to ID, I actually majored in Digital Media Technology where I learnt a lot of programming languages and some basic design skills.</p>
+                    <p>So I can also easily understand the principle of new technology and always think about how to apply it into our daily life. At present, I pay more attention to learn the user centered design methods and process, to know how to dig
+                        out issues froma users perspective and then generate a solution balancing biz value and users value. </p>
+                    <p>I’m seeking full-time position engaging in design research and user experience design.</p>
+                    <a href="assets/file/YiPengResume.pdf"><img src="assets/img/button_resume.png"></a>
+                </div>
+            </div>
+        </div>
+
+    </main>
+</body>
 
 
 </html>
