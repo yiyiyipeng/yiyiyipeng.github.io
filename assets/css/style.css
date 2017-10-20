@@ -59,7 +59,8 @@ nav a {
 
 .col-4 {
     /* padding: 20px, auto; */
-    margin-bottom:20px;
+    margin-top:40px;
+    margin-bottom:40px;
 }
 
 .aboutme {
@@ -102,6 +103,74 @@ body {
     font-size:50px;
     letter-spacing: 5px;
     font-weight:bold;
+}
+
+.yi_intro img {
+    width:40px;
+    height:40px;
+    margin-right:20px;
+    margin-top: 50px;
+    float: right;
+}
+
+.nav {
+    width: 980px;
+    height:100px;
+    border: 2px solid red;
+    margin: auto;
+    display: block;
+    font-family: 'Saira Extra Condensed',sans-serif;
+    font-size:24px;
+
+    /* doesn't work */
+    color: #92C9CE;
+}
+
+/* why ul .selfcode doesn't work */
+
+#work2 {
+    width: 980px;
+    height: 100px;
+    border: 2px solid red;
+    margin: auto;
+    display: block;
+
+}
+
+#work2 ul {
+    font-family: 'Saira Extra Condensed',sans-serif;
+    font-size:28px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.selfcode_right li {
+    float: right;
+    margin: auto, 20px;
+}
+
+.selfcode_left li{
+    float: left;
+    margin: auto, 20px;
+}
+
+.selfcode_left img {
+    width: 58px;
+    height: 80px;
+}
+
+#work2 a {
+    margin: 20px;
+    color: #92C9CE;
+}
+
+#work2 a:hover {
+    color:#129CA7;
+    text-decoration: none;
+}
+
+#work2 a:active {
+    color: #129CA7;
 }
 
 
