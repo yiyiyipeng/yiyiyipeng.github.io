@@ -3,10 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>YI PENG</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <!-- bootstrap css -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <!-- 字体 -->
     <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:400,500" rel="stylesheet">
 
+    <!-- 我的css文件 -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
@@ -31,25 +35,33 @@
 
         </ul> -->
 
-    <div class="home container">
-        <div class="row">
-            <div class="col-5">
-                <img class="yi_sketch" src="assets/img/yi_sketch.png" alt="sketch">
+    <div class="container-fluid home">
+        <div class="container home-container">
+            <div class="row">
+                <div class="col-5 ">
+                    <img class="img-fluid yi_sketch" src="assets/img/yi_sketch.png" alt="sketch">
+                </div>
+
+                <div class="col-6 yi_intro">
+                    <h1>Hi,I'm Yi ;)</h1>
+                    <p>User Experience Designer;</p>
+                    <p>Currently learning research methods and design innovation at IIT Institute of Design in Chicago;</p>
+                    <p>Actively seeking a full-time position starting from July 2018.</p>
+
+                    <a href="https://www.linkedin.com/in/yipengdesign/"><img src="assets/img/ic_in_gray.png" alt="linkedin"></a>
+                    <a href="https://www.linkedin.com/in/yipengdesign/"><img src="assets/img/ic_ins_gray.png" alt="instagram"></a>
+
+                    <a class="linkedin" href="https://www.linkedin.com/in/yipengdesign/" title="Go to homepage"></a>
+                </div>
+
             </div>
-
-
-            <div class="yi_intro col-6">
-                <p>Hi,I'm Yi ;)</p>
-                <p>User Experience Designer;</p>
-                <p>Currently learning research methods and design innovation at IIT Institute of Design in Chicago;</p>
-                <p>Actively seeking a full-time position starting from July 2018.</p>
-
-                <a href="https://www.linkedin.com/in/yipengdesign/"><img src="assets/img/ic_in_gray.png" alt="linkedin"></a>
-                <a href="https://www.linkedin.com/in/yipengdesign/"><img src="assets/img/ic_ins_gray.png" alt="instagram"></a>
-            </div>
-
         </div>
+        <div class="container"></div>
     </div>
+
+    <!-- <div class="home container">
+
+    </div> -->
 
 
     <!-- bootstrap navigation -->
@@ -67,7 +79,7 @@
         </ul>
     </nav>
 
-
+    <!-- selfcode -->
     <nav id="work2">
         <ul class="selfcode_right">
             <li><a href="aboutme.html">ABOUT ME</a></li>
@@ -102,10 +114,10 @@
 
     <main>
 
-        <div class="work">
+        <div class="work container">
             <div class="row">
                 <div class="col-4">
-                    <a href="divvy.html"><img class="img-fluid" src="assets/img/ban_zebra.png"></a>
+                    <a href="zebra.html"><img class="img-fluid" src="assets/img/ban_zebra.png"></a>
                 </div>
 
                 <div class="col-4">
@@ -152,6 +164,10 @@
         </div> -->
 
     </main>
+
+    <footer>
+        <p>Copyright © 2017 Designed and made by Yi Peng in Chicago.</p>
+    </footer>
 </body>
 
 

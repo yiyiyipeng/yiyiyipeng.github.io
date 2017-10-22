@@ -8,13 +8,16 @@
     align-content: center;
 } */
 
-.logo {
+
+/* .logo {
     width: 80px;
     height: 93px;
-}
+} */
 
 
 /* why doesn't it work? */
+
+
 /* .nav:link {
     color: #1D8099;
 }
@@ -33,6 +36,8 @@ nav {
 
 } */
 
+
+/*
 .nav_left {
     float: left;
 
@@ -55,10 +60,11 @@ nav a {
 .work {
     width: 980px;
     margin: auto;
-}
+} */
 
-.col-4 {
-    /* padding: 20px, auto; */
+
+/* .col-4 {
+
     margin-top:40px;
     margin-bottom:40px;
 }
@@ -67,64 +73,98 @@ nav a {
     width: 980px;
     margin: auto;
 
+} */
+
+html, body {
+    height: 100%;
 }
 
-body {
-    background-color:rgb(131, 103, 20);
+body{
+    background-color: rgb(131, 103, 20);
 }
 
 .home {
-    /* background-color: powderblue; */
-    width: 980px;
-    height: 500px;
+    background-color: #FFFEFB;
+    height: 90vh;
+    min-height: 500px;
+    /* border: 1px dotted red; */
+}
 
+.home-container {
+    /* border: 1px dotted green; */
+    max-width: 980px;
+    max-height: 500px;
+    /* margin-top: 50px; */
+    /* margin-bottom: 50px; */
 }
 
 .yi_sketch {
-    width:327px;
-    height:444px;
-    display:block;
-    margin: auto;
-    /* padding-bottom: 28px;
-    padding-top: 28px; */
-
+    max-height: 500px;
 }
 
-.yi_intro p{
-    font-family: 'Saira Extra Condensed',sans-serif;
-    color:#129CA7;
-    text-align: left;
-    font-size: 26px;
-
+.yi_intro {
+    font-size: 2rem;
 }
 
-.yi_intro p:first-child {
-    padding-top:20px;
-    font-size:50px;
+@media (min-width: 576px) {
+    .yi_intro {
+        font-size: 2.2rem;
+    }
+}
+
+@media (min-width: 768px) {
+   .yi_intro {
+       font-size: 2.5rem;
+   }
+}
+
+
+.yi_intro h1 {
+    color: #129CA7;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
     letter-spacing: 5px;
-    font-weight:bold;
+    padding-top: 20px;
+}
+
+.yi_intro p {
+    font-family: 'Saira Extra Condensed', sans-serif;
+    color: #129CA7;
+    text-align: left;
+    /* font-size: 26px; */
 }
 
 .yi_intro img {
-    width:40px;
-    height:40px;
-    margin-right:20px;
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
     margin-top: 50px;
     float: right;
 }
 
-.nav {
+.yi_intro .linkedin {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    margin-top: 50px;
+    float: right;
+    display: block;
+    background-image: url("/assets/img/ic_in_gray.png")
+}
+
+.bootstrap-navigation {
     width: 980px;
-    height:100px;
+    height: 100px;
     border: 2px solid red;
     margin: auto;
     display: block;
-    font-family: 'Saira Extra Condensed',sans-serif;
-    font-size:24px;
-
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 28px;
     /* doesn't work */
     color: #92C9CE;
 }
+
 
 /* why ul .selfcode doesn't work */
 
@@ -134,12 +174,11 @@ body {
     border: 2px solid red;
     margin: auto;
     display: block;
-
 }
 
 #work2 ul {
-    font-family: 'Saira Extra Condensed',sans-serif;
-    font-size:28px;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 28px;
     list-style-type: none;
     padding: 0;
 }
@@ -149,7 +188,7 @@ body {
     margin: auto, 20px;
 }
 
-.selfcode_left li{
+.selfcode_left li {
     float: left;
     margin: auto, 20px;
 }
@@ -165,7 +204,7 @@ body {
 }
 
 #work2 a:hover {
-    color:#129CA7;
+    color: #129CA7;
     text-decoration: none;
 }
 
@@ -173,7 +212,79 @@ body {
     color: #129CA7;
 }
 
+.col-4 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.about_intro {
+    width: 980px;
+    margin: auto;
+    color: #129CA7;
+}
+
+.about_intro p:first-child {
+    font-family: 'Saira Extra Condensed', sans-serif;
+    padding-top: 20px;
+    font-size: 50px;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+.about_intro img {
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-left: 50px;
+    margin-right: 50px;
+}
 
 
+.zebra_ban {
+    background-image: url("../img/zebra/bg.png")
+}
+
+/* .ban {
+    width: 980px;
+    margin: auto;
+} */
+
+.zebralogo {
+    width: 97px;
+    height: 154px;
+    display: block;
+}
+
+.zebra_ban h1 {
+    font-family: 'Saira Extra Condensed',sans-serif;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.zebra_ban p {
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 24px;
+}
+
+
+
+
+
+
+
+
+
+/* footer */
+
+footer {
+    border-top-style: solid;
+    border-top-color:#D1D1D1;
+    border-top-width: 1px;
+    color:#D1D1D1;
+    font-size: 10px;
+    text-align: center;
+    padding: 20px;
+    margin-top:40px;
+}
 
 
