@@ -143,14 +143,19 @@ body{
     float: right;
 }
 
-.yi_intro .linkedin {
+.linkedin {
     width: 40px;
     height: 40px;
     margin-right: 20px;
     margin-top: 50px;
     float: right;
     display: block;
-    background-image: url("/assets/img/ic_in_gray.png")
+    background-image: url("../img/ic_in_gray.png");
+    background-size: contain;
+}
+
+.linkedin:hover {
+background-image: url("../img/ic_in_color.png");
 }
 
 .bootstrap-navigation {
@@ -241,7 +246,11 @@ body{
 
 
 .zebra_ban {
-    background-image: url("../img/zebra/bg.png")
+    background-image: url("../img/zebra/bg.png");
+    background-size: cover;
+    background-position: center;
+    /* height: 600px; */
+    padding
 }
 
 /* .ban {
