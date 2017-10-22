@@ -1,0 +1,30 @@
+.navbar-yi-container {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.navbar-yi {
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 28px;
+    text-transform: uppercase;
+
+}
+
+.navbar-yi .navbar-brand {
+    font-size: 28px;
+}
+
+.navbar-yi .navbar-brand img {
+    margin-right: 20px;
+}
+
+.navbar-yi .navbar-nav .nav-link {
+    color: #92C9CE;
+}
+
+.navbar-yi .navbar-nav .nav-link:hover {
+    color: #129CA7;
+}
+
+.navbar-yi .navbar-nav .active>.nav-link {
+    color: #129CA7;
+}
