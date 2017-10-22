@@ -1,102 +1,43 @@
-/* nav {
-    position: fixed;
-    float: left;
-    font-family: "Din Alternate";
-    font-size: 36px;
-    font-weight:bold;
-    height: 100px;
-    align-content: center;
-} */
-
-
-/* .logo {
-    width: 80px;
-    height: 93px;
-} */
-
-
-/* why doesn't it work? */
-
-
-/* .nav:link {
-    color: #1D8099;
-}
-
-.nav:hover {
-    color: #6023C2;
-}
-
-nav {
-    height: 100px;
-    position: fixed;
-    Width: 980px;
-    margin:auto;
-    color: red;
-    font-family: Arial, Helvetica, sans-serif;
-
-} */
-
-
-/*
-.nav_left {
-    float: left;
-
-}
-
-.nav_right {
-    float: right;
-
-}
-
-nav a {
-    margin:auto, 20px;
-
-}
-
-.intro {
-    background: url("../img/background.png")
-}
-
-.work {
-    width: 980px;
-    margin: auto;
-} */
-
-
-/* .col-4 {
-
-    margin-top:40px;
-    margin-bottom:40px;
-}
-
-.aboutme {
-    width: 980px;
-    margin: auto;
-
-} */
-
-html, body {
-    height: 100%;
-}
 
 body{
-    background-color: rgb(131, 103, 20);
+    /* background-color: rgb(131, 103, 20); */
 }
+
+.navbar-yi-container {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.navbar-yi {
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+.navbar-yi .navbar-brand {
+    font-size: 28px;
+}
+
+.navbar-yi .navbar-brand img {
+    margin-right: 20px;
+}
+
+.navbar-yi .navbar-nav .nav-link {
+    color: #92C9CE;
+}
+
+.navbar-yi .navbar-nav .nav-link:hover {
+    color: #129CA7;
+}
+
+.navbar-yi .navbar-nav .active>.nav-link {
+    color: #129CA7;
+}
+
 
 .home {
     background-color: #FFFEFB;
-    height: 90vh;
-    min-height: 500px;
-    /* border: 1px dotted red; */
 }
 
-.home-container {
-    /* border: 1px dotted green; */
-    max-width: 980px;
-    max-height: 500px;
-    /* margin-top: 50px; */
-    /* margin-bottom: 50px; */
-}
 
 .yi_sketch {
     max-height: 500px;
@@ -217,10 +158,10 @@ background-image: url("../img/ic_in_color.png");
     color: #129CA7;
 }
 
-.col-4 {
+/* .col-4 {
     margin-top: 40px;
     margin-bottom: 40px;
-}
+} */
 
 .about_intro {
     width: 980px;
