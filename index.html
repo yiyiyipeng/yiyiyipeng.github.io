@@ -15,31 +15,11 @@
 </head>
 
 <body>
-
-    <!-- <nav>
-        <ul class="nav">
-            <li class="nav-item">
-                <a class="nav-link active" href="index.html"><img class="logo" src="assets/img/logo.png" alt="Back to homepage"></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="index.html">YI PENG</a>
-            </li>
-        </ul>
-
-        <ul class="nav justify-content-end">
-            <li class="nav-item">
-                <a class="nav-link active" href="#WORK">WORK</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#ABOUTME">ABOUT ME</a>
-            </li>
-
-        </ul> -->
-
-    <div class="container-fluid home">
-        <div class="container home-container">
+    <div class="container-fluid">
+        <div class="container container-width intro">
             <div class="row">
-                <div class="col-md-5 ">
+                <div class="col-md-1"></div>
+                <div class="col-md-4 ">
                     <img class="img-fluid yi_sketch" src="assets/img/yi_sketch.png" alt="sketch">
                 </div>
 
@@ -48,22 +28,24 @@
                     <p>User Experience Designer;</p>
                     <p>Currently learning research methods and design innovation at IIT Institute of Design in Chicago;</p>
                     <p>Actively seeking a full-time position starting from July 2018.</p>
-<!--
+                    <!--
                     <a href="https://www.linkedin.com/in/yipengdesign/"><img src="assets/img/ic_in_gray.png" alt="linkedin"></a>
                     <a href="https://www.linkedin.com/in/yipengdesign/"><img src="assets/img/ic_ins_gray.png" alt="instagram"></a> -->
 
                     <a class="linkedin" href="https://www.linkedin.com/in/yipengdesign/" title="Go to homepage"></a>
+                    <a class="ins" href="https://www.linkedin.com/in/yipengdesign/" title="Go to homepage"></a>
+
+
                 </div>
 
             </div>
         </div>
-        <div class="container"></div>
     </div>
 
     <div class="container-fluid sticky-top navbar-light navbar-yi-container">
-        <div class="container ">
-            <nav class="navbar navbar-expand-lg navbar-yi">
-                <a class="navbar-brand" href="#"><img src="assets/img/logo.png" class="img-fluid d-inline-block align-middle" alt=""> Yi Peng</a>
+        <div class="container container-width">
+            <nav class="navbar navbar-expand-lg navbar-yi" id="work">
+                <a class="navbar-brand" href="#"><img src="assets/img/ic_yi_sketch.png" class="img-fluid d-inline-block align-middle" alt="Yi Peng"> Yi Peng</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -71,15 +53,15 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Work
+                            <a class="nav-link" href="#work">Work
                                     <span class="sr-only">(current)</span>
                                 </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Gallery</a>
+                            <a class="nav-link" href="gallery.html">Gallery</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About Me</a>
+                            <a class="nav-link" href="aboutme.html">About Me</a>
                         </li>
                     </ul>
                 </div>
@@ -89,181 +71,45 @@
 
     <main>
 
-        <div class="work container">
-            <div class="row">
-                <div class="col-4">
-                    <a href="zebra.html"><img class="img-fluid" src="assets/img/ban_zebra.png"></a>
-                </div>
-
-                <div class="col-4">
-                    <a href="bling.html"><img class="img-fluid" src="assets/img/ban_bling.png"></a>
-                </div>
-
-                <div class="col-4">
-                    <a href="han.html"><img class="img-fluid" src="assets/img/ban_divvy.png"></a>
-                </div>
-
-                <div class="col-4">
-                    <a href="q.html"><img class="img-fluid" src="assets/img/ban_bling.png"></a>
-                </div>
-
-                <div class="col-4">
-                    <a href="bling.html"><img class="img-fluid" src="assets/img/ban_divvy.png"></a>
-                </div>
-
-                <div class="col-4">
-                    <a href="han.html"><img class="img-fluid" src="assets/img/ban_zebra.png"></a>
-                </div>
-                <div class="col-4">
-                    <a href="zebra.html">
+        <div class="container-fluid">
+            <div class="container container-width showcase">
+                <div class="row">
+                    <div class="col-md-4">
+                        <a href="zebra.html">
                             <img class="img-fluid" src="assets/img/ban_zebra.png">
                         </a>
+                    </div>
+
+                    <div class="col-md-4">
+                        <a href="bling.html"><img class="img-fluid" src="assets/img/ban_bling.png"></a>
+                    </div>
+
+                    <div class="col-md-4">
+                        <a href="han.html"><img class="img-fluid" src="assets/img/ban_divvy.png"></a>
+                    </div>
                 </div>
 
-                <div class="col-4">
-                    <a href="bling.html">
-                            <img class="img-fluid" src="assets/img/ban_bling.png">
-                        </a>
+                <div class="row">
+
+                    <div class="col-md-4">
+                        <a href="q.html"><img class="img-fluid" src="assets/img/ban_bling.png"></a>
+                    </div>
+
+                    <div class="col-md-4">
+                        <a href="bling.html"><img class="img-fluid" src="assets/img/ban_divvy.png"></a>
+                    </div>
+
+                    <div class="col-md-4">
+                        <a href="han.html"><img class="img-fluid" src="assets/img/ban_zebra.png"></a>
+                    </div>
+
+
+
                 </div>
-
-                <div class="col-4">
-                    <a href="han.html">
-                            <img class="img-fluid" src="assets/img/ban_divvy.png">
-                        </a>
-                </div>
-
-                <div class="col-4">
-                    <a href="q.html">
-                            <img class="img-fluid" src="assets/img/ban_bling.png">
-                        </a>
-                </div>
-
-                <div class="col-4">
-                    <a href="bling.html">
-                            <img class="img-fluid" src="assets/img/ban_divvy.png">
-                        </a>
-                </div>
-
-                <div class="col-4">
-                    <a href="han.html">
-                            <img class="img-fluid" src="assets/img/ban_zebra.png">
-                        </a>
-                </div>
-
-                <div class="col-4">
-                    <a href="zebra.html">
-                            <img class="img-fluid" src="assets/img/ban_zebra.png">
-                        </a>
-                </div>
-
-                <div class="col-4">
-                    <a href="bling.html">
-                            <img class="img-fluid" src="assets/img/ban_bling.png">
-                        </a>
-                </div>
-
-                <div class="col-4">
-                    <a href="han.html">
-                            <img class="img-fluid" src="assets/img/ban_divvy.png">
-                        </a>
-                </div>
-
-                <div class="col-4">
-                    <a href="q.html">
-                            <img class="img-fluid" src="assets/img/ban_bling.png">
-                        </a>
-                </div>
-
-                <div class="col-4">
-                    <a href="bling.html">
-                            <img class="img-fluid" src="assets/img/ban_divvy.png">
-                        </a>
-                </div>
-
-                <div class="col-4">
-                    <a href="han.html">
-                            <img class="img-fluid" src="assets/img/ban_zebra.png">
-                        </a>
-                </div>
-
-                <div class="col-4">
-                    <a href="zebra.html">
-                            <img class="img-fluid" src="assets/img/ban_zebra.png">
-                        </a>
-                </div>
-
-                <div class="col-4">
-                    <a href="bling.html">
-                            <img class="img-fluid" src="assets/img/ban_bling.png">
-                        </a>
-                </div>
-
-                <div class="col-4">
-                    <a href="han.html">
-                            <img class="img-fluid" src="assets/img/ban_divvy.png">
-                        </a>
-                </div>
-
-                <div class="col-4">
-                    <a href="q.html">
-                            <img class="img-fluid" src="assets/img/ban_bling.png">
-                        </a>
-                </div>
-
-                <div class="col-4">
-                    <a href="bling.html">
-                            <img class="img-fluid" src="assets/img/ban_divvy.png">
-                        </a>
-                </div>
-
-                <div class="col-4">
-                    <a href="han.html">
-                            <img class="img-fluid" src="assets/img/ban_zebra.png">
-                        </a>
-                </div>
-
-                <div class="col-4">
-                    <a href="zebra.html">
-                            <img class="img-fluid" src="assets/img/ban_zebra.png">
-                        </a>
-                </div>
-
-                <div class="col-4">
-                    <a href="bling.html">
-                            <img class="img-fluid" src="assets/img/ban_bling.png">
-                        </a>
-                </div>
-
-                <div class="col-4">
-                    <a href="han.html">
-                            <img class="img-fluid" src="assets/img/ban_divvy.png">
-                        </a>
-                </div>
-
-                <div class="col-4">
-                    <a href="q.html">
-                            <img class="img-fluid" src="assets/img/ban_bling.png">
-                        </a>
-                </div>
-
-                <div class="col-4">
-                    <a href="bling.html">
-                            <img class="img-fluid" src="assets/img/ban_divvy.png">
-                        </a>
-                </div>
-
-                <div class="col-4">
-                    <a href="han.html">
-                            <img class="img-fluid" src="assets/img/ban_zebra.png">
-                        </a>
-                </div>
-
-
             </div>
-        </div>
 
 
-        <!-- <div class="aboutme container">
+            <!-- <div class="aboutme container">
                 <h2 id="ABOUTME">ABOUT ME</h2>
 
                 <div class="row">

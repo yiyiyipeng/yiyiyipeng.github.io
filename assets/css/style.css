@@ -1,5 +1,12 @@
+body {
+    background-color: #FFFEFB;
+}
+
+
+/* Navigation bar */
+
 .navbar-yi-container {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 254, 251, 0.8);
 }
 
 .navbar-yi {
@@ -11,6 +18,7 @@
 .navbar-yi .navbar-brand {
     font-size: 28px;
     width: 50px;
+    color: #92C9CE;
 }
 
 .navbar-yi .navbar-brand img {
@@ -31,40 +39,24 @@
     color: #129CA7;
 }
 
-
-.home {
-    background-color: #FFFEFB;
+.intro {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    height: 100vh;
 }
-
 
 .yi_sketch {
     max-height: 500px;
 }
 
-.yi_intro {
-    font-size: 2rem;
-}
-
-@media (min-width: 576px) {
-    .yi_intro {
-        font-size: 2.2rem;
-    }
-}
-
-@media (min-width: 768px) {
-   .yi_intro {
-       font-size: 2.5rem;
-   }
-}
-
-
 .yi_intro h1 {
     color: #129CA7;
     font-family: 'Saira Extra Condensed', sans-serif;
-    font-size: 50px;
+    /* font-size: 50px; */
     font-weight: bold;
     letter-spacing: 5px;
     padding-top: 20px;
+    padding-bottom: 30px;
 }
 
 .yi_intro p {
@@ -72,6 +64,24 @@
     color: #129CA7;
     text-align: left;
     /* font-size: 26px; */
+}
+
+@media (min-width: 576px) {
+    .yi_intro p {
+        font-size: 0.7rem;
+    }
+    .yi_intro h1 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .yi_intro p {
+        font-size: 1.8rem;
+    }
+    .yi_intro h1 {
+        font-size: 3rem;
+    }
 }
 
 .yi_intro img {
@@ -94,72 +104,37 @@
 }
 
 .linkedin:hover {
-background-image: url("../img/ic_in_color.png");
+    background-image: url("../img/ic_in_color.png");
 }
 
-.bootstrap-navigation {
-    width: 980px;
-    height: 100px;
-    border: 2px solid red;
-    margin: auto;
-    display: block;
-    font-family: 'Saira Extra Condensed', sans-serif;
-    font-size: 28px;
-    /* doesn't work */
-    color: #92C9CE;
-}
-
-
-/* why ul .selfcode doesn't work */
-
-#work2 {
-    width: 980px;
-    height: 100px;
-    border: 2px solid red;
-    margin: auto;
-    display: block;
-}
-
-#work2 ul {
-    font-family: 'Saira Extra Condensed', sans-serif;
-    font-size: 28px;
-    list-style-type: none;
-    padding: 0;
-}
-
-.selfcode_right li {
+.ins {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    margin-top: 50px;
     float: right;
-    margin: auto, 20px;
+    display: block;
+    background-image: url("../img/ic_ins_gray.png");
+    background-size: contain;
 }
 
-.selfcode_left li {
-    float: left;
-    margin: auto, 20px;
+.ins:hover {
+    background-image: url("../img/ic_ins_color.png");
 }
 
-.selfcode_left img {
-    width: 58px;
-    height: 80px;
+
+/* work-preview */
+
+.showcase {
+    margin-top: 50px;
 }
 
-#work2 a {
-    margin: 20px;
-    color: #92C9CE;
+.showcase .row {
+    margin-bottom: 50px;
 }
 
-#work2 a:hover {
-    color: #129CA7;
-    text-decoration: none;
-}
 
-#work2 a:active {
-    color: #129CA7;
-}
-
-/* .col-4 {
-    margin-top: 40px;
-    margin-bottom: 40px;
-} */
+/* aboutme.html */
 
 .about_intro {
     width: 980px;
@@ -176,35 +151,63 @@ background-image: url("../img/ic_in_color.png");
 }
 
 .about_intro img {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     float: left;
     margin-left: 50px;
     margin-right: 50px;
 }
 
 
-.zebra_ban {
+/* zebra */
+
+@media (max-width: 576px) {
+    .ban-font p {
+        font-size: 0.5rem;
+        color: #444444;
+    }
+    .ban-font h1 {
+        font-size: 2rem;
+        color: #444444;
+        font-family: 'Saira Extra Condensed', sans-serif;
+    }
+     .zebralogo {
+         max-width: 50px;
+     }
+
+}
+
+@media (min-width: 576px) {
+    .ban-font p {
+        font-size: 1.2rem;
+        color: #444444;
+    }
+    .ban-font h1 {
+        font-size: 2.4rem;
+        color: #444444;
+        font-family: 'Saira Extra Condensed', sans-serif;
+        margin-bottom: 20px;
+        margin-top: 20px;
+
+    }
+
+
+}
+
+.ban-zebra {
     background-image: url("../img/zebra/bg.png");
     background-size: cover;
     background-position: center;
-    /* height: 600px; */
-    padding
 }
 
-/* .ban {
-    width: 980px;
-    margin: auto;
-} */
-
 .zebralogo {
-    width: 97px;
-    height: 154px;
+    width: 90%;
+    height: auto;
     display: block;
 }
 
 .zebra_ban h1 {
-    font-family: 'Saira Extra Condensed',sans-serif;
+    font-family: 'Saira Extra Condensed', sans-serif;
     font-size: 50px;
     margin-bottom: 30px;
 }
@@ -214,25 +217,71 @@ background-image: url("../img/ic_in_color.png");
     font-size: 24px;
 }
 
+.ban-zebra-content {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.container-main-zebra img {
+    width: 100%;
+
+}
+
+@media (max-width: 576px) {
+    .container-main-zebra p {
+        font-size: 0.5rem;
+        color: #444444;
+
+    }
+    .container-main-zebra h2 {
+        font-size: 1.5rem;
+        color: #444444;
+        font-family: 'Saira Extra Condensed',sans-serif;
+
+    }
+    .container-main-zebra h6 {
+        font-size: 0.7rem;
+        color: #999999;
+        font-family: 'Saira Extra Condensed',sans-serif;
+
+    }
 
 
 
+}
 
-
-
+@media (min-width: 576px) {
+    .container-main-zebra p {
+        font-size: 1rem;
+        color: #444444;
+    }
+    .container-main-zebra h2 {
+        font-size: 2rem;
+        color: #444444;
+        font-family: 'Saira Extra Condensed',sans-serif;
+    }
+    .container-main-zebra h6 {
+        font-size: 1rem;
+        color: #999999;
+        font-family: 'Saira Extra Condensed',sans-serif;
+    }
+}
 
 
 /* footer */
 
 footer {
     border-top-style: solid;
-    border-top-color:#D1D1D1;
+    border-top-color: #D1D1D1;
     border-top-width: 1px;
-    color:#D1D1D1;
+    color: #D1D1D1;
     font-size: 10px;
     text-align: center;
     padding: 20px;
-    margin-top:40px;
+    margin-top: 40px;
 }
+/*
+.container-width {
+    max-width: 960px; */
 
-
+}
